@@ -24,3 +24,28 @@ Clone the repository to your local machine using the following command:
 
 ```bash
 git clone <repository_url>
+```
+### 2. Install Dependencies
+
+Navigate to the project directory and install the necessary Node.js modules:
+
+```bash
+cd <project_directory>
+npm install
+```
+### 3. Run the Application
+
+Start the development server using Angular CLI:
+
+```bash
+ng serve
+```
+### 4. Access the Application
+
+Once the server is running, open your browser and go to:
+
+```bash
+http://localhost:4200
+```
+You should see the chat application running on your local machine.
+
