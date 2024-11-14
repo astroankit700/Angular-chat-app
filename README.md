@@ -10,7 +10,7 @@ This is a real-time chat application built using Angular. Follow the instruction
 ## Prerequisites
 
 Before you start, ensure that you have the following installed:
-- **Node.js** (v12.x or higher)
+- **Node.js** (v16.x or higher) - Angular 16 requires Node.js v16 or newer for compatibility.
 - **npm** (comes with Node.js)
 - **Angular CLI** (globally installed via `npm install -g @angular/cli`)
 
