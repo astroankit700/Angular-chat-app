@@ -1,0 +1,5 @@
+<div class="d-flex flex-column bg-light">
+    <button class="btn d-flex" [ngClass]="{'btn-secondary' : currentUserId == user.id}" *ngFor="let user of userList" (click)="userSelectHandler(user.id)">
+        {{user.username}}
+    </button>
+</div>

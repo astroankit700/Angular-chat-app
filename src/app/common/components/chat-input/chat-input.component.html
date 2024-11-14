@@ -1,0 +1,8 @@
+<div class="row" *ngIf="currentUserId>0">  <!-- TODO: move ngif somewhere elese -->
+    <div class="col-10">
+        <input class="form-control" type="text" placeholder="Enter your message..." aria-label="default input example" (keyup.enter)="sendMessageHandler()" #messageInputSpy>
+    </div>
+    <div class="col-2">
+        <button class="btn btn-success" (click)="sendMessageHandler()">Send</button>
+    </div>
+</div>

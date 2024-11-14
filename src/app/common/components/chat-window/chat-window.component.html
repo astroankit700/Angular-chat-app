@@ -1,0 +1,2 @@
+<app-text *ngFor="let chat of chats" [message]="chat" [userName]=" chat.sentByMe ? 'You' : userName" />
+<h4 class="text-muted" *ngIf="!chats?.length">Send a message to {{userName}} to start a conversation...</h4>

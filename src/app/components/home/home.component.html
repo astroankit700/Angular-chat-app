@@ -1,0 +1,14 @@
+<div class="row">
+    <div class="col-3 sidebar">
+        <app-user-list />
+    </div>
+    <div class="align-items-center bg-light col-9 d-flex flex-column justify-content-center sidebar h2 text-muted" *ngIf="currentUserId == -1">
+        Please select a Profile to display chats here...
+    </div>
+    <div class="col-9 bg-light chat-section py-2 rounded-bottom d-flex flex-column justify-content-end" *ngIf="currentUserId>0">
+            <app-chat-window></app-chat-window>
+        <div class="position-fixed bottom-0 mb-2 w-75">
+            <app-chat-input />
+        </div>
+    </div>
+</div>
